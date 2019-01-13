@@ -39,7 +39,7 @@ Two fully connected layers with 'relu' activation neural network architecture is
 
 Below is a plot of rewards per episode for traing which illustrates that the agent is able to receive an average reward (over 100 episodes) of at least +13.
 
-![Plot of Rewards](reward_plot.png) 
+![Plot of Rewards](reward_plot_v1.png) 
 
 ### Ideas for future work
 
