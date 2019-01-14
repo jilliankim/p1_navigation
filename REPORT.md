@@ -19,6 +19,13 @@ model.py - contains network used to attain weights (taken from course)
 
 ### Learning Algorithm
 
+DQN is a form of Q-learning with function approximation (using a neural network), which means it tries to learn a state-action value function Q (given by a neural network in DQN) by minimizing temporal-difference errors
+
+Double DQN is implemented in the Agent with the following two neural networks (identical architecture):
+- Local network (implements the agent's current policy)
+- Target network (estimates the Q-value function targets from which the agent learns)
+Experience replay is implemented through the Replay Buffer class, which stores and shuffles a batch of experiences for the agent to learn from.
+
 I implemented double DQN network and this improved by solving the environment in 412 episodes. 
 
 Hyperparameters used for double DQN network are:
